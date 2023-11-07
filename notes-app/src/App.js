@@ -32,6 +32,7 @@ const App = () => {
   return (
     <div className="container">
       <NotesList notes={notes} />
+      
     </div>
   )
 };

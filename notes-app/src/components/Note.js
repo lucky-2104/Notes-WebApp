@@ -7,7 +7,7 @@ const Note = ({id,text,date}) => {
                 {text}
             </span>
             <div className="note-footer">
-                <small>{ date}</small>
+                <small>{date}</small>
                 <MdDeleteForever
 					className='delete-icon'
 					size='1.3em'

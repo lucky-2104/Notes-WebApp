@@ -27,7 +27,32 @@ code {
 
 }
 
+.note.new{
+  background-color: lightgreen;
 
+}
+
+textarea{
+  border: none;
+  resize : none;
+  background-color: lightgreen;
+}
+
+textarea:focus{
+  outline : none;
+}
+
+.save:hover{
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.save{
+  background-color: whitesmoke;
+  border: none;
+  padding : 5px 10px 5px 10px;
+  border-radius: 50px;
+}
 
 
 .note{
@@ -39,6 +64,7 @@ code {
   flex-direction: column;
   justify-content: space-between;
 }
+
 
 .note-footer{
   display : flex;
