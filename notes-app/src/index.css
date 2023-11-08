@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+
+
 .container{
   max-width: 960px;
   margin-right: auto;
@@ -63,13 +65,37 @@ textarea:focus{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  white-space: pre-wrap;
 }
-
 
 .note-footer{
   display : flex;
   align-items: center;
   justify-content: space-between;
 }
+.delete-icon
+{
+  cursor: pointer;
+}
+.delete-icon:hover{
+  background-color: lightcoral;
+}
 
+.Search{
+  display: flex;
+  align-items: center;
+  background-color: rgb(209, 207, 207);
+  border-radius: 8px;
+  padding-bottom:5px;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.Search input{
+  border: none;
+  background-color:rgb(209, 207, 207);
 
+}
+
+.Search input:focus{
+  outline : none;
+}
