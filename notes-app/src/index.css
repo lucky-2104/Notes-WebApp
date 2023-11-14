@@ -83,6 +83,12 @@ textarea:focus{
   white-space: pre-wrap;
 }
 
+/*adjusted css style for note-text*/
+.note-text{
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
 .note-footer{
   display : flex;
   align-items: center;
